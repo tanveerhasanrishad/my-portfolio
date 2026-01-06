@@ -50,6 +50,10 @@
   line-height: 30px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* main style */
 
 header {
@@ -233,4 +237,52 @@ nav .menu a {
   line-height: 28px;
   color: #757575;
   margin-bottom: 30px;
+}
+
+footer {
+  margin-top: 113px;
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+
+footer .footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 117px;
+}
+
+footer .footer-container .social {
+  max-width: 562px;
+}
+
+footer .social p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+footer h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer-container .icons a {
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+  width: 461px;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  border: none;
+  line-height: 28px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #757575;
 }
